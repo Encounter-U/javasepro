@@ -10,7 +10,7 @@ import java.util.ArrayList;
 /**
  * 掌握如何创建ArrayList集合对象，并熟悉ArrayList提供的常用方法
  */
-public class ArrayDemo1
+public class ArrayListDemo1
     {
         public static void main(String[] args)
             {

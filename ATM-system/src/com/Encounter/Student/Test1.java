@@ -1,10 +1,20 @@
-package com.Encounter.JieDaun1.Student;
+package com.Encounter.Student;
 
 import java.util.ArrayList;
 
 /**
  * @author Encounter
  * @date 2024/6/16 21:18
+ */
+
+/**
+ * 老师要在学生成绩管理系统中录入学生的信息。老师需要在控制台上录入学生的姓名(name)、年龄(age)、性别(gender)、考试分数(SC
+ * ore)
+ * 需要录入的信息如下:
+ * 小明、15、男、90
+ * 小张、16、男、92
+ * 小红、15、女、95
+ * 录入完成之后需要将学生信息展示在控制台上。
  */
 public class Test1
     {
@@ -21,6 +31,7 @@ public class Test1
                 for (int i = 0; i < students.size(); i++)
                     {
                         Student student = students.get(i);
+                        System.out.println("=======================");
                         System.out.println("姓名："+student.getName());
                         System.out.println("年龄："+student.getAge());
                         System.out.println("性别："+student.getGender());

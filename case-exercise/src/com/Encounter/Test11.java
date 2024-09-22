@@ -1,4 +1,4 @@
-package com.dongxin.day07.test3_0726;
+package com.Encounter;
 
 import java.util.Random;
 import java.util.Scanner;

@@ -11,18 +11,13 @@ package com.Encounter.demo.teacher;
  * 王老师的年龄是32
  * 李老师的年龄是33
  */
-public class Test
+public class TeacherTest
     {
         public static void main(String[] args)
             {
-                Teacher t1=new Teacher();
-                t1.name="王";
-                t1.age=32;
-                t1.printInfo();
-
-                Teacher t2=new Teacher();
-                t2.name="李";
-                t2.age=33;
-                t2.printInfo();
+                Behavior b1 = new Behavior(new Teacher("王老师", 32));
+                Behavior b2 = new Behavior(new Teacher("李老师", 33));
+                b1.show();
+                b2.show();
             }
     }

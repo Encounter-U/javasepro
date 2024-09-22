@@ -4,18 +4,18 @@ package com.Encounter.demo.arraydemo;
  * @author Encounter
  * @date 2024/6/16 13:37
  */
-public class cuisine
+public class Food
     {
-        String name;
-        double price;
-        double specialPrice;
-        String Info;
+        private String name;
+        private double price;
+        private double specialPrice;
+        private String Info;
 
-        public cuisine()
+        public Food()
             {
             }
 
-        public cuisine(String name, double price, double specialPrice, String info)
+        public Food(String name, double price, double specialPrice, String info)
             {
                 this.name = name;
                 this.price = price;

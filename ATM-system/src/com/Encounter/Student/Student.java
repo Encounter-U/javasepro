@@ -1,4 +1,4 @@
-package com.Encounter.JieDaun1.Student;
+package com.Encounter.Student;
 
 /**
  * @author Encounter
